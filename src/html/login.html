@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>登录页</title>
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <script type="text/javascript" src="../js/common.js"></script>
+        <script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="../js/login.js"></script>
+    </head>
+    <body>
+         <!-- 注册页头部 -->
+        <div id="header-wrap">
+            <div class="header clearfix">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../img/logo.png" alt="" />
+                    </a>
+                </div>
+                <div class="regist-now">
+                    <span class="avatar">
+                        <img src="../img/avatar.gif" alt="" />
+                    </span>
+                    <span class="regist">
+                        您好，欢迎来到央广购物
+                        <br />
+                        已注册的会员请登录，或立即<a href="Reg.html">注册新会员</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 登录详情部分 -->
+        <div id="login-wrap">
+            <div class="login-wrap clearfix">
+                <div class="leftimg">
+                    <img src="../img/login_left.jpg" alt="" />
+                </div>
+                <div class="rightlogin">
+                    <div class="login-method clearfix">
+                        <div class="title ">
+                            <div class="titleleft">用户登录</div>
+                            <div class="titleright">手机动态验证码登录</div>
+                        </div>
+                        <div class="tab-container">
+                            <div class="userlogin">
+                                <div class="loginerror">
+                                    <p class="showerror"><span>&nbsp;&nbsp;&#161;</span>您输入的账号或密码有错</p>
+                                </div>
+                                <form action="" class="loginform">
+                                    <dl class="clearfix">
+                                        <dt>账号：</dt>
+                                        <dd>
+                                            <input type="text" class="account" placeholder="手机号/会员名" />
+                                        </dd>
+                                    </dl>
+                                    <dl class="clearfix">
+                                        <dt>密码：</dt>
+                                        <dd>
+                                            <input type="password" class="loginpassword" placeholder="输入登录密码" />
+                                        </dd>
+                                    </dl>
+                                    <div class="code-div class="clearfix" ">
+                                        <dl class="clearfix">
+                                            <dt>验证码：</dt>
+                                            <dd>
+                                                <input type="text" class="vercode" placeholder="输入验证码" />
+                                                <label for="code" class="codeerror">
+                                                    <span>&#161;</span>
+                                                </label>
+                                            </dd>
+                                        </dl>
+                                        <span class="create-code"></span>
+                                    </div>
+                                    <div class="handle">
+                                        <span class="check">
+                                            <input type="checkbox" class="check_service" /><i>七天免登录</i>
+                                        </span>
+                                        <a href="javascript:;">忘记密码</a>
+                                    </div>
+                                    <input type="button"  class="btnLogin" value="登录" />
+                                </form>
+                            </div>
+                            <div class="mobilelogin">
+                                <form action="" class="mobileform">
+                                    <dl class="clearfix">
+                                        <dt>手机号：</dt>
+                                        <dd>
+                                            <input type="text" placeholder="可填已注册手机号接收短信" />
+                                        </dd>
+                                    </dl>
+                                    <div class="code-div clearfix">
+                                        <dl class="clearfix">
+                                            <dt>验证码：</dt>
+                                            <dd>
+                                                <input type="text" placeholder="输入验证码" />
+                                            </dd>
+                                        </dl>
+                                        <span></span>
+                                    </div>
+                                    <div class="tip">
+                                        正确输入上方验证码后，点击<a href="">发送短信动态码</a>,查收短信，将系统发送的“6位短信动态码”输入到下方验证后登录
+                                    </div>
+                                    <dl class="clearfix">
+                                        <dt>动态码：</dt>
+                                        <dd>
+                                            <input type="text" placeholder="输入6位手机动态码" />
+                                        </dd>
+                                    </dl>
+                                    <input type="button"  class="btnLogin" value="登录" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 脚部 -->
+        <div id="footer-wrap">
+            <div class="footer">
+                <p>
+                    <a href="">首页</a>|
+                    <a href="">招商合作</a>|
+                    <a href="">关于央广购物</a>|
+                    <a href="">联系我们</a>|
+                    <a href="">称为供应商</a>|
+                    <a href="">招贤纳士</a>
+                </p>
+                <p>
+                    <a href="javascript:;">京公网安备：11011502002190</a>
+                    <a href="javascript:;">京ICP备10038858号</a>
+                    <a href="javascript:;">食品流通许可证编号：SP1101151210063489</a>
+                    <a href="javascript:;">信息网络传播视听节目许可证&nbsp;&nbsp;&nbsp;&nbsp;0102002号</a>
+                    <a href="javascript:;">营业执照</a>
+                </p>
+                <p>
+                    Copyright&right;2010-2017 &nbsp;&nbsp;&nbsp;&nbsp;cnrmall.com &nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务热线：4008-518-518
+                </p>
+                <ul class="footer-img clearfix">
+                    <li>
+                        <a href="javascript:;"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"></a>
+                    </li>
+                    <li style="margin-right:0;">
+                        <a href="javascript:;"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

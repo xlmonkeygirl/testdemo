@@ -1,0 +1,319 @@
+#header-wrap .header {
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto; }
+  #header-wrap .header .logo {
+    float: left;
+    width: 240px;
+    height: 68px;
+    padding-top: 10px; }
+  #header-wrap .header .logo-now {
+    float: right;
+    padding-top: 50px;
+    width: 158px;
+    font-size: 14px;
+    line-height: 24px; }
+    #header-wrap .header .logo-now a {
+      color: #06c;
+      font-weight: 600;
+      margin-left: 4px;
+      text-decoration: none; }
+
+#register-wrap {
+  background: #fafafa url(../img/register_bg.png) repeat 50% 50%;
+  height: 680px;
+  overflow: hidden; }
+  #register-wrap .register-wrap {
+    width: 860px;
+    height: 560px;
+    padding: 10px;
+    margin: 60px auto;
+    background: rgba(0, 0, 0, 0.15); }
+    #register-wrap .register-wrap .register-box {
+      width: 820px;
+      height: 520px;
+      padding: 20px;
+      background: #fff; }
+      #register-wrap .register-wrap .register-box .reg-left {
+        float: left;
+        width: 600px;
+        height: 520px; }
+        #register-wrap .register-wrap .register-box .reg-left h3 {
+          width: 290px;
+          height: 40px;
+          text-align: center;
+          font-size: 18px;
+          color: #999;
+          line-height: 18px; }
+        #register-wrap .register-wrap .register-box .reg-left h3:hover {
+          color: #000; }
+        #register-wrap .register-wrap .register-box .reg-left .reg-info {
+          padding: 50px 80px 0 100px;
+          width: 400px;
+          height: 209px;
+          border-top: 1px solid #e6e6e6; }
+          #register-wrap .register-wrap .register-box .reg-left .reg-info form dl {
+            width: 398px;
+            height: 52px;
+            border: 1px solid #e6e6e6; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form dl dt {
+              float: left;
+              line-height: 52px;
+              color: #666;
+              width: 88px;
+              font-size: 14px;
+              padding-left: 20px; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form dl dd {
+              float: left;
+              line-height: 52px;
+              position: relative; }
+              #register-wrap .register-wrap .register-box .reg-left .reg-info form dl dd input {
+                color: #f60; }
+              #register-wrap .register-wrap .register-box .reg-left .reg-info form dl dd .phoneerror {
+                font-size: 12px;
+                display: block;
+                position: absolute;
+                width: 140px;
+                height: 24px;
+                line-height: 24px;
+                background: #fff5d9;
+                padding: 8px 12px 8px 20px;
+                z-index: 2;
+                top: 5px;
+                left: 214px;
+                display: none; }
+                #register-wrap .register-wrap .register-box .reg-left .reg-info form dl dd .phoneerror span {
+                  font-size: 16px;
+                  font-weight: 600;
+                  background: #ff500b;
+                  display: inline-block;
+                  width: 24px;
+                  height: 24px;
+                  line-height: 18px;
+                  border-radius: 50%;
+                  color: #fff;
+                  margin-right: 8px; }
+          #register-wrap .register-wrap .register-box .reg-left .reg-info form .code {
+            float: left;
+            width: 278px;
+            margin: -1px 0 0 0; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form .code dl {
+              padding-left: 20px;
+              font-size: 14px;
+              color: #666;
+              float: left; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form .code dd {
+              width: 88px;
+              float: left;
+              position: relative; }
+              #register-wrap .register-wrap .register-box .reg-left .reg-info form .code dd label {
+                position: absolute;
+                top: -2px;
+                right: -76px;
+                display: none; }
+                #register-wrap .register-wrap .register-box .reg-left .reg-info form .code dd label span {
+                  font-size: 16px;
+                  font-weight: 600;
+                  background: #ff500b;
+                  display: inline-block;
+                  width: 24px;
+                  height: 24px;
+                  line-height: 18px;
+                  border-radius: 50%;
+                  color: #fff; }
+          #register-wrap .register-wrap .register-box .reg-left .reg-info form > div > span {
+            display: block;
+            width: 119px;
+            height: 52px;
+            border: 1px solid #e6e6e6;
+            background: #e6e6e6;
+            float: left;
+            margin: -1px 0 0 -1px;
+            font-size: 30px;
+            color: #8a8a8a;
+            text-align: center;
+            line-height: 52px;
+            position: relative; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form > div > span a {
+              display: block;
+              width: 120px;
+              height: 52px;
+              background: #34343a;
+              opacity: 0.5;
+              font-size: 14px;
+              color: #fff;
+              text-align: center;
+              line-height: 52px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              display: none; }
+          #register-wrap .register-wrap .register-box .reg-left .reg-info form p {
+            width: 400px;
+            height: 30px;
+            padding: 15px 0;
+            font-size: 14px;
+            line-height: 30px;
+            color: #666;
+            position: relative; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form p input {
+              margin-right: 8px; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form p a {
+              color: #06c; }
+            #register-wrap .register-wrap .register-box .reg-left .reg-info form p .checkerror {
+              font-size: 12px;
+              display: block;
+              position: absolute;
+              width: 140px;
+              height: 24px;
+              line-height: 24px;
+              background: #fff5d9;
+              padding: 8px 12px 8px 20px;
+              z-index: 2;
+              top: 10px;
+              left: 186px;
+              display: none; }
+              #register-wrap .register-wrap .register-box .reg-left .reg-info form p .checkerror span {
+                font-size: 16px;
+                font-weight: 600;
+                background: #ff500b;
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                line-height: 18px;
+                border-radius: 50%;
+                color: #fff; }
+          #register-wrap .register-wrap .register-box .reg-left .reg-info form > input {
+            width: 400px;
+            height: 42px;
+            font-size: 16px;
+            font-weight: 600px;
+            background: #ff500b;
+            border: 1px solid #f15c18;
+            color: #fff;
+            border-radius: 3px; }
+        #register-wrap .register-wrap .register-box .reg-left .regStep2 {
+          width: 580px;
+          height: 259px;
+          border-top: 1px solid #e6e6e6;
+          padding: 50px 80px 0 100px; }
+          #register-wrap .register-wrap .register-box .reg-left .regStep2 form dl {
+            width: 398px;
+            height: 52px;
+            border: 1px solid #e6e6e6;
+            margin: -1px 0 0 0; }
+            #register-wrap .register-wrap .register-box .reg-left .regStep2 form dl dt {
+              float: left;
+              font-size: 14px;
+              line-height: 20px;
+              color: #666;
+              width: 88px;
+              padding: 16px 0 16px 20px; }
+            #register-wrap .register-wrap .register-box .reg-left .regStep2 form dl dd {
+              float: left;
+              height: 28px;
+              padding: 12px 0;
+              position: relative; }
+              #register-wrap .register-wrap .register-box .reg-left .regStep2 form dl dd input {
+                width: 290px; }
+              #register-wrap .register-wrap .register-box .reg-left .regStep2 form dl dd label {
+                font-size: 12px;
+                display: block;
+                position: absolute;
+                width: 152px;
+                height: 24px;
+                line-height: 24px;
+                background: #fff5d9;
+                padding: 8px 12px 8px 20px;
+                z-index: 2;
+                top: 5px;
+                left: 214px;
+                display: none; }
+                #register-wrap .register-wrap .register-box .reg-left .regStep2 form dl dd label span {
+                  font-size: 16px;
+                  font-weight: 600;
+                  background: #ff500b;
+                  display: inline-block;
+                  width: 24px;
+                  height: 24px;
+                  line-height: 18px;
+                  border-radius: 50%;
+                  color: #fff;
+                  margin-right: 8px; }
+          #register-wrap .register-wrap .register-box .reg-left .regStep2 form > input {
+            margin: 15px 0 0 0;
+            width: 382px;
+            height: 40px;
+            border: 1px solid #f15c18;
+            background: #ff500b;
+            color: #fff;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600; }
+      #register-wrap .register-wrap .register-box .reg-right {
+        float: right;
+        width: 200px;
+        height: 500px;
+        padding-top: 20px;
+        padding-left: 19px;
+        border-left: 1px solid #e6e6e6; }
+        #register-wrap .register-wrap .register-box .reg-right .register-after h4 {
+          font-size: 14px;
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 20px;
+          color: #333; }
+        #register-wrap .register-wrap .register-box .reg-right .register-after ul li {
+          font-size: 12px;
+          color: #999;
+          margin-bottom: 10px;
+          line-height: 24px;
+          padding-left: 12px; }
+
+#footer-wrap {
+  padding: 30px 0 10px 0;
+  background: #343a3a; }
+  #footer-wrap .footer {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    color: #fff; }
+    #footer-wrap .footer a {
+      color: #eee; }
+    #footer-wrap .footer p:first-child {
+      padding-top: 15px; }
+      #footer-wrap .footer p:first-child a {
+        line-height: 16px;
+        padding: 0 10px; }
+    #footer-wrap .footer p:nth-child(2) {
+      padding-top: 15px; }
+      #footer-wrap .footer p:nth-child(2) a {
+        line-height: 16px;
+        padding: 0 10px; }
+      #footer-wrap .footer p:nth-child(2) a:hover {
+        text-decoration: underline; }
+    #footer-wrap .footer p:nth-child(3) {
+      padding-top: 15px; }
+    #footer-wrap .footer ul {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px 0 10px 0; }
+      #footer-wrap .footer ul li {
+        width: 108px;
+        height: 40px;
+        float: left;
+        margin-right: 20px; }
+        #footer-wrap .footer ul li a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+      #footer-wrap .footer ul li:first-child a {
+        background: url(../img/yangguang-footer.png) no-repeat 0 0; }
+      #footer-wrap .footer ul li:nth-child(2) a {
+        background: url(../img/yangguang-footer.png) no-repeat -122px 0; }
+      #footer-wrap .footer ul li:nth-child(3) a {
+        background: url(../img/yangguang-footer.png) no-repeat -244px 0; }
+      #footer-wrap .footer ul li:last-child {
+        background: url(../img/yangguang-footer.png) no-repeat -366px 0; }

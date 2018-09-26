@@ -1,0 +1,313 @@
+body {
+  background: #fafafa; }
+
+#header-wrap {
+  background: #fff;
+  border-bottom: 2px solid #f5f5f5; }
+  #header-wrap .header {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto; }
+    #header-wrap .header .logo {
+      float: left;
+      width: 240px;
+      height: 68px;
+      padding-top: 10px; }
+    #header-wrap .header .regist-now {
+      float: right;
+      font-size: 14px;
+      color: #aaa;
+      line-height: 20px;
+      width: 306px;
+      height: 40px;
+      padding-top: 30px; }
+      #header-wrap .header .regist-now .avatar {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin-right: 6px;
+        vertical-align: top; }
+        #header-wrap .header .regist-now .avatar img {
+          width: 100%;
+          height: 100%; }
+      #header-wrap .header .regist-now .regist {
+        vertical-align: top;
+        display: inline-block; }
+        #header-wrap .header .regist-now .regist a {
+          font-weight: 600;
+          margin-left: 2px;
+          color: #06c; }
+
+#login-wrap .login-wrap {
+  width: 1000px;
+  min-height: 600px;
+  margin: 20px auto; }
+  #login-wrap .login-wrap .leftimg {
+    width: 450px;
+    height: 350px;
+    float: left;
+    margin: 30px 0; }
+  #login-wrap .login-wrap .rightlogin {
+    width: 444px;
+    padding: 19px 19px 29px 19px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    float: right; }
+    #login-wrap .login-wrap .rightlogin .login-method {
+      overflow: visible; }
+      #login-wrap .login-wrap .rightlogin .login-method .title {
+        width: 440px;
+        height: 40px;
+        border-bottom: 1px solid #e6e6e6; }
+        #login-wrap .login-wrap .rightlogin .login-method .title div {
+          width: 220px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          cursor: pointer; }
+        #login-wrap .login-wrap .rightlogin .login-method .title div:hover {
+          color: #000; }
+        #login-wrap .login-wrap .rightlogin .login-method .title .titleleft {
+          float: left;
+          font-size: 18px;
+          color: #999; }
+        #login-wrap .login-wrap .rightlogin .login-method .title .titleright {
+          float: left;
+          font-size: 18px;
+          color: #999; }
+      #login-wrap .login-wrap .rightlogin .login-method .tab-container {
+        width: 440px;
+        height: 252px;
+        padding: 30px 40px 20px 40px;
+        position: relative; }
+        #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin {
+          width: 352px;
+          position: relative; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginerror {
+            line-height: 24px;
+            padding: 8px 20px;
+            background: #fff5d9;
+            display: none;
+            color: #f60; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginerror p span {
+              font-size: 14px;
+              font-weight: 600;
+              background: #ff500b;
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              text-align: left;
+              line-height: 16px;
+              border-radius: 50%;
+              color: #fff;
+              margin-right: 8px; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform dl {
+            width: 348px;
+            height: 52px;
+            border: 1px solid #e6e6e6;
+            margin-top: -1px; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform dl dt {
+              float: left;
+              font-size: 14px;
+              line-height: 20px;
+              color: #666;
+              width: 88px;
+              padding: 16px 0 16px 20px; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform dl dd {
+              float: left;
+              height: 28px;
+              padding: 12px 0; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div {
+            height: 54px; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div dl {
+              width: 228px;
+              float: left; }
+              #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div dl dt {
+                width: 88px;
+                float: left; }
+              #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div dl dd {
+                width: 100px;
+                float: left;
+                position: relative; }
+                #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div dl dd label {
+                  position: absolute;
+                  top: 14px;
+                  right: -10px;
+                  display: none; }
+                  #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div dl dd label span {
+                    font-size: 16px;
+                    font-weight: 600;
+                    background: #ff500b;
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    text-align: center;
+                    line-height: 18px;
+                    border-radius: 50%;
+                    color: #fff; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div span {
+              display: inline-block;
+              width: 120px;
+              height: 52px;
+              margin: -1px 0 0 -1px;
+              border: 1px solid #e6e6e6;
+              font-size: 30px;
+              color: #8a8a8a;
+              text-align: center;
+              line-height: 52px;
+              position: relative; }
+              #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .code-div span a {
+                display: block;
+                width: 120px;
+                height: 52px;
+                background: #34343a;
+                opacity: 0.5;
+                font-size: 14px;
+                color: #fff;
+                text-align: center;
+                line-height: 52px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .handle {
+            line-height: 20px;
+            padding: 15px 0;
+            overflow: hidden; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .handle .check {
+              color: #999;
+              float: left;
+              font-size: 12px;
+              height: 20px;
+              line-height: 20px; }
+              #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .handle .check input {
+                display: inline-block;
+                float: left; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .handle a {
+              float: right;
+              color: #06c;
+              font-size: 12px; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .userlogin .loginform .btnLogin {
+            width: 348px;
+            height: 42px;
+            font-size: 16px;
+            font-weight: 600px;
+            background: #ff500b;
+            color: #fff;
+            border: 1px solid #f15c18;
+            border-radius: 3px;
+            cursor: pointer; }
+        #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin {
+          width: 352px;
+          position: absolute;
+          opacity: 0;
+          left: -352px;
+          top: 30px; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform dl {
+            width: 348px;
+            height: 52px;
+            border: 1px solid #e6e6e6;
+            margin-top: -1px; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform dl dt {
+              float: left;
+              font-size: 14px;
+              line-height: 20px;
+              color: #666;
+              width: 88px;
+              padding: 16px 0 16px 20px; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform dl dd {
+              float: left;
+              height: 28px;
+              padding: 12px 0; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .code-div {
+            height: 54px; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .code-div dl {
+              width: 228px;
+              float: left; }
+              #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .code-div dl dt {
+                width: 88px;
+                float: left; }
+              #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .code-div dl dd {
+                width: 100px;
+                float: left; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .code-div span {
+              display: inline-block;
+              width: 120px;
+              height: 52px;
+              margin: -1px 0 0 -1px;
+              border: 1px solid #e6e6e6; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .tip {
+            line-height: 20px;
+            font-size: 12px;
+            color: #999;
+            margin: 15px 0; }
+            #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .tip a {
+              background: #21b384;
+              color: #fff;
+              padding: 0 8px;
+              display: inline-block;
+              height: 22px;
+              line-height: 22px;
+              margin: 0 4px;
+              border-radius: 2px; }
+          #login-wrap .login-wrap .rightlogin .login-method .tab-container .mobilelogin .mobileform .btnLogin {
+            width: 348px;
+            height: 42px;
+            font-size: 16px;
+            font-weight: 600px;
+            background: #ff500b;
+            color: #fff;
+            border: 1px solid #f15c18;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top: 15px; }
+
+#footer-wrap {
+  padding: 30px 0 10px 0;
+  background: #343a3a; }
+  #footer-wrap .footer {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    color: #fff; }
+    #footer-wrap .footer a {
+      color: #eee; }
+    #footer-wrap .footer p:first-child {
+      padding-top: 15px; }
+      #footer-wrap .footer p:first-child a {
+        line-height: 16px;
+        padding: 0 10px; }
+    #footer-wrap .footer p:nth-child(2) {
+      padding-top: 15px; }
+      #footer-wrap .footer p:nth-child(2) a {
+        line-height: 16px;
+        padding: 0 10px; }
+      #footer-wrap .footer p:nth-child(2) a:hover {
+        text-decoration: underline; }
+    #footer-wrap .footer p:nth-child(3) {
+      padding-top: 15px; }
+    #footer-wrap .footer ul {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px 0 10px 0; }
+      #footer-wrap .footer ul li {
+        width: 108px;
+        height: 40px;
+        float: left;
+        margin-right: 20px; }
+        #footer-wrap .footer ul li a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+      #footer-wrap .footer ul li:first-child a {
+        background: url(../img/yangguang-footer.png) no-repeat 0 0; }
+      #footer-wrap .footer ul li:nth-child(2) a {
+        background: url(../img/yangguang-footer.png) no-repeat -122px 0; }
+      #footer-wrap .footer ul li:nth-child(3) a {
+        background: url(../img/yangguang-footer.png) no-repeat -244px 0; }
+      #footer-wrap .footer ul li:last-child {
+        background: url(../img/yangguang-footer.png) no-repeat -366px 0; }

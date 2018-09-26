@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>注册页</title>
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/reg.css" />
+        <script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="../js/common.js"></script>
+        <script type="text/javascript" src="../js/reg.js"></script>
+    </head>
+    <body>
+        <!-- 注册页头部 -->
+        <div id="header-wrap">
+            <div class="header clearfix">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../img/logo.png" alt="" />
+                    </a>
+                </div>
+                <div class="logo-now">
+                    我已经注册，现在就<a href="login.html">登录</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 注册页中间部分 -->
+        <div id="register-wrap">
+            <div class="register-wrap">
+                <div class="register-box clearfix">
+                    <div class="reg-left">
+                        <h3>手机注册</h3>
+                        <div class="reg-info regStep1" >
+                            <form>
+                               <dl class="phone clearfix">
+                                   <dt>手机号：</dt>
+                                   <dd>
+                                       <input type="text" class="phoneNumber" placeholder="请输入手机号码" name="mobile" />
+                                       <label for="mobile" class="phoneerror"><span>&nbsp;&nbsp;&#161;</span>请输入正确的手机号</label>
+
+                                   </dd>
+                               </dl>
+                               <div class="clearfix">
+                               <dl class="code clearfix">
+                                   <dt>验证码：</dt>
+                                   <dd>
+                                       <input type="text" placeholder="输入验证码" class="ercode" name="code" />
+                                       <label for="code" class="codeerror">
+                                           <span>&nbsp;&nbsp;&#161;</span>
+                                       </label>
+                                   </dd>
+                               </dl>
+                               <span class="codeText">
+                                    <!-- <a href="javascript:;" class="codewrap">看不清，更换一张</a> -->
+                                </span>
+
+                               </div>
+                               <p>
+                                   <input type="checkbox" name="check" class="check_service" />阅读并同意<a href="">《服务协议》</a>
+                                   <label for="check" class="checkerror">
+                                        <span>&nbsp;&nbsp;&#161;</span>请勾选服务协议
+                                    </label>
+                               </p>
+                               <input type="button" class="btnNext" value="下一步" />
+                            </form>
+                        </div>
+                        <div class="regStep2" style="display:none;">
+                            <form>
+                                <dl class="clearfix">
+                                    <dt>用户名：</dt>
+                                    <dd>
+                                        <input type="text" class="username" name="username" placeholder="请使用6-20个中、英文、数字及'-'符号" />
+                                        <label for="username" class="usernameerror"><span>&nbsp;&nbsp;&#161;</span>用户名格式不正确</label>
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>设置密码：</dt>
+                                    <dd>
+                                        <input type="password" class="password" name="password" />
+                                        <label for="password" class="passworderror"><span>&nbsp;&nbsp;&#161;</span>密码不能为空</label>
+
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix">
+                                    <dt>确认密码：</dt>
+                                    <dd>
+                                        <input type="text" class="repass" name="repass" />
+                                        <label for="repass" class="repasserror"><span>&nbsp;&nbsp;&#161;</span>两次输入的密码不一致</label>
+                                    </dd>
+                                </dl>
+                                <input type="button" value="立即注册" class="btnReg" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="reg-right">
+                        <div class="register-after">
+                            <h4>注册之后您可以</h4>
+                            <ul>
+                                <li>
+                                    <i></i>
+                                    购买商品支付订单
+                                </li>
+                                <li>
+                                    <i></i>
+                                    收藏商品收藏店铺
+                                </li>
+                                <li>
+                                    <i></i>
+                                    安全交易诚信无忧
+                                </li>
+                                <li>
+                                    <i></i>
+                                    会员等级享受特权
+                                </li>
+                                <li>
+                                    <i></i>
+                                    交易评价站外分享
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 脚部 -->
+        <div id="footer-wrap">
+            <div class="footer">
+                <p>
+                    <a href="">首页</a>|
+                    <a href="">招商合作</a>|
+                    <a href="">关于央广购物</a>|
+                    <a href="">联系我们</a>|
+                    <a href="">称为供应商</a>|
+                    <a href="">招贤纳士</a>
+                </p>
+                <p>
+                    <a href="javascript:;">京公网安备：11011502002190</a>
+                    <a href="javascript:;">京ICP备10038858号</a>
+                    <a href="javascript:;">食品流通许可证编号：SP1101151210063489</a>
+                    <a href="javascript:;">信息网络传播视听节目许可证&nbsp;&nbsp;&nbsp;&nbsp;0102002号</a>
+                    <a href="javascript:;">营业执照</a>
+                </p>
+                <p>
+                    Copyright&right;2010-2017 &nbsp;&nbsp;&nbsp;&nbsp;cnrmall.com &nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务热线：4008-518-518
+                </p>
+                <ul class="footer-img clearfix">
+                    <li>
+                        <a href="javascript:;"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"></a>
+                    </li>
+                    <li style="margin-right:0;">
+                        <a href="javascript:;"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
